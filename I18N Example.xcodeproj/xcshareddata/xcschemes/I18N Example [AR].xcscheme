@@ -73,6 +73,10 @@
             argument = "-AppleLanguages (ar)"
             isEnabled = "YES">
          </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-AppleLocale &quot;ar_AE&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>

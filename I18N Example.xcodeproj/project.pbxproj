@@ -20,6 +20,7 @@
 		411FA78D19763E5300C975AA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA78F19763E5300C975AA /* first@2x.png */; };
 		411FA79019763E5600C975AA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA79219763E5600C975AA /* second.png */; };
 		411FA79319763E5A00C975AA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA79519763E5A00C975AA /* second@2x.png */; };
+		411FA7AF19766C3C00C975AA /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 411FA7B119766C3C00C975AA /* Localizable.stringsdict */; };
 		4152B02A196E007F00F109FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4152B029196E007F00F109FC /* Info.plist */; };
 		4152B02D196E00AD00F109FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4152B02B196E00AD00F109FC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,11 @@
 		411FA79119763E5600C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/second.png; sourceTree = "<group>"; };
 		411FA79419763E5A00C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/second@2x.png"; sourceTree = "<group>"; };
 		411FA7971976401B00C975AA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/ClickBelow.png"; sourceTree = "<group>"; };
+		411FA7B019766C3C00C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		411FA7B219766C8F00C975AA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		411FA7B319766CD500C975AA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		411FA7B419766CD500C975AA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ar; path = ar.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		411FA7B519766CD500C975AA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4152B029196E007F00F109FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4152B02C196E00AD00F109FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4152B02E196E00B400F109FC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -130,6 +136,7 @@
 				411D2117196DD81000E91F1A /* Main.storyboard */,
 				411D211A196DD81000E91F1A /* Images.xcassets */,
 				411D210A196DD81000E91F1A /* Supporting Files */,
+				411FA7B119766C3C00C975AA /* Localizable.stringsdict */,
 				411D213A196DE7F300E91F1A /* Localizable.strings */,
 			);
 			path = "I18N Example";
@@ -242,6 +249,7 @@
 				de,
 				"zh-Hans",
 				en,
+				ar,
 			);
 			mainGroup = 411D20FE196DD81000E91F1A;
 			productRefGroup = 411D2108196DD81000E91F1A /* Products */;
@@ -262,6 +270,7 @@
 				411FA78A19763E4D00C975AA /* first.png in Resources */,
 				4152B02A196E007F00F109FC /* Info.plist in Resources */,
 				411D2119196DD81000E91F1A /* Main.storyboard in Resources */,
+				411FA7AF19766C3C00C975AA /* Localizable.stringsdict in Resources */,
 				411D2138196DE7F300E91F1A /* Localizable.strings in Resources */,
 				411D211B196DD81000E91F1A /* Images.xcassets in Resources */,
 				4108B794196E7C21006F5A86 /* ClickBelow.png in Resources */,
@@ -348,6 +357,7 @@
 				411D2139196DE7F300E91F1A /* Base */,
 				411D213B196DE7F700E91F1A /* de */,
 				411D213F196DF93600E91F1A /* zh-Hans */,
+				411FA7B519766CD500C975AA /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -384,6 +394,16 @@
 			name = "second@2x.png";
 			sourceTree = "<group>";
 		};
+		411FA7B119766C3C00C975AA /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411FA7B019766C3C00C975AA /* Base */,
+				411FA7B219766C8F00C975AA /* de */,
+				411FA7B419766CD500C975AA /* ar */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
 		4152B02B196E00AD00F109FC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -391,6 +411,7 @@
 				4152B02E196E00B400F109FC /* de */,
 				4108B791196E02DE006F5A86 /* zh-Hans */,
 				41962B00197485EA00A28D01 /* en */,
+				411FA7B319766CD500C975AA /* ar */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

@@ -17,7 +17,7 @@
                 <key>one</key>
                 <string>Einmal ist keinmal</string>
                 <key>other</key>
-                <string>%d Klicks</string>
+                <string>%1d Klicks</string>
             </dict>
         </dict>
     </dict>

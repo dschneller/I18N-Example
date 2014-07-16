@@ -13,17 +13,17 @@
                 <key>NSStringFormatValueTypeKey</key>
                 <string>d</string>
                 <key>zero</key>
-                <string>%dكتاب</string>
+                <string>%1dكتاب</string>
                 <key>one</key>
                 <string>كتاب</string>
                 <key>two</key>
                 <string>كتابان</string>
                 <key>few</key>
-                <string>كتب %d </string>
+                <string>%1dكتب</string>
                 <key>many</key>
-                <string>كتابًا %d</string>
+                <string>%1dكتابًا</string>
                 <key>other</key>
-                <string>كتاب %d</string>
+                <string>%1dكتاب</string>
             </dict>
         </dict>
     </dict>
