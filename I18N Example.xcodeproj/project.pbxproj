@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4108B794196E7C21006F5A86 /* ClickBelow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4108B796196E7C21006F5A86 /* ClickBelow.png */; };
 		411D210D196DD81000E91F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D210C196DD81000E91F1A /* main.m */; };
 		411D2110196DD81000E91F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D210F196DD81000E91F1A /* AppDelegate.m */; };
 		411D2113196DD81000E91F1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D2112196DD81000E91F1A /* FirstViewController.m */; };
@@ -14,6 +15,13 @@
 		411D2119196DD81000E91F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411D2117196DD81000E91F1A /* Main.storyboard */; };
 		411D211B196DD81000E91F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411D211A196DD81000E91F1A /* Images.xcassets */; };
 		411D2127196DD81000E91F1A /* I18N_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D2126196DD81000E91F1A /* I18N_ExampleTests.m */; };
+		411D2138196DE7F300E91F1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 411D213A196DE7F300E91F1A /* Localizable.strings */; };
+		411FA78A19763E4D00C975AA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA78C19763E4D00C975AA /* first.png */; };
+		411FA78D19763E5300C975AA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA78F19763E5300C975AA /* first@2x.png */; };
+		411FA79019763E5600C975AA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA79219763E5600C975AA /* second.png */; };
+		411FA79319763E5A00C975AA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FA79519763E5A00C975AA /* second@2x.png */; };
+		4152B02A196E007F00F109FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4152B029196E007F00F109FC /* Info.plist */; };
+		4152B02D196E00AD00F109FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4152B02B196E00AD00F109FC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +32,27 @@
 			remoteGlobalIDString = 411D2106196DD81000E91F1A;
 			remoteInfo = "I18N Example";
 		};
+		411D2144196DFC9A00E91F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411D20FF196DD81000E91F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411D2106196DD81000E91F1A;
+			remoteInfo = "I18N Example";
+		};
+		411FA798197661CA00C975AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411D20FF196DD81000E91F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411D2106196DD81000E91F1A;
+			remoteInfo = "I18N Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4108B791196E02DE006F5A86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4108B795196E7C21006F5A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/ClickBelow.png; sourceTree = "<group>"; };
+		4108B797196E7C23006F5A86 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/ClickBelow.png; sourceTree = "<group>"; };
 		411D2107196DD81000E91F1A /* I18N Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I18N Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		411D210B196DD81000E91F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		411D210C196DD81000E91F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		411D210E196DD81000E91F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		411D210F196DD81000E91F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +65,21 @@
 		411D2120196DD81000E91F1A /* I18N ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I18N ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		411D2125196DD81000E91F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		411D2126196DD81000E91F1A /* I18N_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = I18N_ExampleTests.m; sourceTree = "<group>"; };
+		411D2131196DDAF500E91F1A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		411D2139196DE7F300E91F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		411D213B196DE7F700E91F1A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		411D213E196DF93600E91F1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		411D213F196DF93600E91F1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		411FA78B19763E4D00C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/first.png; sourceTree = "<group>"; };
+		411FA78E19763E5300C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/first@2x.png"; sourceTree = "<group>"; };
+		411FA79119763E5600C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/second.png; sourceTree = "<group>"; };
+		411FA79419763E5A00C975AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/second@2x.png"; sourceTree = "<group>"; };
+		411FA7971976401B00C975AA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/ClickBelow.png"; sourceTree = "<group>"; };
+		4152B029196E007F00F109FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4152B02C196E00AD00F109FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4152B02E196E00B400F109FC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41962B00197485EA00A28D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41962B01197485EA00A28D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +121,7 @@
 		411D2109196DD81000E91F1A /* I18N Example */ = {
 			isa = PBXGroup;
 			children = (
+				411FA79619763E6300C975AA /* Images */,
 				411D210E196DD81000E91F1A /* AppDelegate.h */,
 				411D210F196DD81000E91F1A /* AppDelegate.m */,
 				411D2111196DD81000E91F1A /* FirstViewController.h */,
@@ -91,6 +131,7 @@
 				411D2117196DD81000E91F1A /* Main.storyboard */,
 				411D211A196DD81000E91F1A /* Images.xcassets */,
 				411D210A196DD81000E91F1A /* Supporting Files */,
+				411D213A196DE7F300E91F1A /* Localizable.strings */,
 			);
 			path = "I18N Example";
 			sourceTree = "<group>";
@@ -98,7 +139,8 @@
 		411D210A196DD81000E91F1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				411D210B196DD81000E91F1A /* Info.plist */,
+				4152B02B196E00AD00F109FC /* InfoPlist.strings */,
+				4152B029196E007F00F109FC /* Info.plist */,
 				411D210C196DD81000E91F1A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -119,6 +161,18 @@
 				411D2125196DD81000E91F1A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		411FA79619763E6300C975AA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4108B796196E7C21006F5A86 /* ClickBelow.png */,
+				411FA78C19763E4D00C975AA /* first.png */,
+				411FA78F19763E5300C975AA /* first@2x.png */,
+				411FA79219763E5600C975AA /* second.png */,
+				411FA79519763E5A00C975AA /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +207,8 @@
 			);
 			dependencies = (
 				411D2122196DD81000E91F1A /* PBXTargetDependency */,
+				411D2145196DFC9A00E91F1A /* PBXTargetDependency */,
+				411FA799197661CA00C975AA /* PBXTargetDependency */,
 			);
 			name = "I18N ExampleTests";
 			productName = "I18N ExampleTests";
@@ -165,6 +221,7 @@
 		411D20FF196DD81000E91F1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = I18N;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Daniel Schneller";
 				TargetAttributes = {
@@ -182,8 +239,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				de,
+				"zh-Hans",
+				en,
 			);
 			mainGroup = 411D20FE196DD81000E91F1A;
 			productRefGroup = 411D2108196DD81000E91F1A /* Products */;
@@ -201,8 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411FA78A19763E4D00C975AA /* first.png in Resources */,
+				4152B02A196E007F00F109FC /* Info.plist in Resources */,
 				411D2119196DD81000E91F1A /* Main.storyboard in Resources */,
+				411D2138196DE7F300E91F1A /* Localizable.strings in Resources */,
 				411D211B196DD81000E91F1A /* Images.xcassets in Resources */,
+				4108B794196E7C21006F5A86 /* ClickBelow.png in Resources */,
+				411FA79319763E5A00C975AA /* second@2x.png in Resources */,
+				411FA78D19763E5300C975AA /* first@2x.png in Resources */,
+				4152B02D196E00AD00F109FC /* InfoPlist.strings in Resources */,
+				411FA79019763E5600C975AA /* second.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,15 +310,91 @@
 			target = 411D2106196DD81000E91F1A /* I18N Example */;
 			targetProxy = 411D2121196DD81000E91F1A /* PBXContainerItemProxy */;
 		};
+		411D2145196DFC9A00E91F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411D2106196DD81000E91F1A /* I18N Example */;
+			targetProxy = 411D2144196DFC9A00E91F1A /* PBXContainerItemProxy */;
+		};
+		411FA799197661CA00C975AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411D2106196DD81000E91F1A /* I18N Example */;
+			targetProxy = 411FA798197661CA00C975AA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4108B796196E7C21006F5A86 /* ClickBelow.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4108B795196E7C21006F5A86 /* Base */,
+				4108B797196E7C23006F5A86 /* de */,
+				411FA7971976401B00C975AA /* zh-Hans */,
+			);
+			name = ClickBelow.png;
+			sourceTree = "<group>";
+		};
 		411D2117196DD81000E91F1A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				411D2118196DD81000E91F1A /* Base */,
+				411D2131196DDAF500E91F1A /* de */,
+				411D213E196DF93600E91F1A /* zh-Hans */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411D213A196DE7F300E91F1A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411D2139196DE7F300E91F1A /* Base */,
+				411D213B196DE7F700E91F1A /* de */,
+				411D213F196DF93600E91F1A /* zh-Hans */,
+				41962B01197485EA00A28D01 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		411FA78C19763E4D00C975AA /* first.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411FA78B19763E4D00C975AA /* Base */,
+			);
+			name = first.png;
+			sourceTree = "<group>";
+		};
+		411FA78F19763E5300C975AA /* first@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411FA78E19763E5300C975AA /* Base */,
+			);
+			name = "first@2x.png";
+			sourceTree = "<group>";
+		};
+		411FA79219763E5600C975AA /* second.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411FA79119763E5600C975AA /* Base */,
+			);
+			name = second.png;
+			sourceTree = "<group>";
+		};
+		411FA79519763E5A00C975AA /* second@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411FA79419763E5A00C975AA /* Base */,
+			);
+			name = "second@2x.png";
+			sourceTree = "<group>";
+		};
+		4152B02B196E00AD00F109FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4152B02C196E00AD00F109FC /* Base */,
+				4152B02E196E00B400F109FC /* de */,
+				4108B791196E02DE006F5A86 /* zh-Hans */,
+				41962B00197485EA00A28D01 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,8 +480,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "I18N Example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/I18N ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,8 +491,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "I18N Example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/I18N ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -408,6 +551,7 @@
 				411D212C196DD81000E91F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		411D212D196DD81000E91F1A /* Build configuration list for PBXNativeTarget "I18N ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +560,7 @@
 				411D212F196DD81000E91F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

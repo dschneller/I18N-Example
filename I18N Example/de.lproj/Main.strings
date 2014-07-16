@@ -1,0 +1,20 @@
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "KgZ-YL-icC"; */
+"KgZ-YL-icC.normalTitle" = "Zurücksetzen";
+
+/* Class = "IBUIButton"; normalTitle = "Click Me!"; ObjectID = "MdJ-PK-cac"; */
+"MdJ-PK-cac.normalTitle" = "Drück mich!";
+
+/* Class = "IBUILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Region in Einstellungen ändern!";
+
+/* Class = "IBUITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Eins";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Zwei";
+
+/* Class = "IBUILabel"; text = "Clicked N times"; ObjectID = "iXk-Jw-Ugm"; */
+"iXk-Jw-Ugm.text" = "%@x geklickt";
+
+/* Class = "IBUILabel"; text = "2nd View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Datumsformate";
