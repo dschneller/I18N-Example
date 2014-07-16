@@ -79,7 +79,6 @@
 		4152B02C196E00AD00F109FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4152B02E196E00B400F109FC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41962B00197485EA00A28D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		41962B01197485EA00A28D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,7 +348,6 @@
 				411D2139196DE7F300E91F1A /* Base */,
 				411D213B196DE7F700E91F1A /* de */,
 				411D213F196DF93600E91F1A /* zh-Hans */,
-				41962B01197485EA00A28D01 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
