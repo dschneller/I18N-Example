@@ -39,7 +39,7 @@
 }
 
 - (void) updateLabel {
-    self.clickLabel.text = [NSString stringWithFormat:NSLocalizedString(@"click.counter.label", @"Param 1: Current Click Count."), self.clickCount];
+    self.clickLabel.text = [NSString stringWithFormat:NSLocalizedString(@"click.counter.label.%1d", @"Param 1: Current Click Count."), self.clickCount];
 }
 
 @end

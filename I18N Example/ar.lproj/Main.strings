@@ -1,0 +1,27 @@
+
+/* Class = "IBUIButton"; normalTitle = "Reset Counter"; ObjectID = "KgZ-YL-icC"; */
+"KgZ-YL-icC.normalTitle" = "Reset Counter";
+
+/* Class = "IBUIButton"; normalTitle = "Click Me!"; ObjectID = "MdJ-PK-cac"; */
+"MdJ-PK-cac.normalTitle" = "Click Me!";
+
+/* Class = "IBUILabel"; text = "Change Region in System Settings"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Change Region in System Settings";
+
+/* Class = "IBUILabel"; text = "Current Quarter"; ObjectID = "Q7x-RV-lvk"; */
+"Q7x-RV-lvk.text" = "Current Quarter";
+
+/* Class = "IBUITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "IBUILabel"; text = "Clicked N times"; ObjectID = "iXk-Jw-Ugm"; */
+"iXk-Jw-Ugm.text" = "Clicked N times";
+
+/* Class = "IBUILabel"; text = "Current Date and Time"; ObjectID = "jqW-4S-B31"; */
+"jqW-4S-B31.text" = "Current Date and Time";
+
+/* Class = "IBUILabel"; text = "Date Formatting"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Date Formatting";
